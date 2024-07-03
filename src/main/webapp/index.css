@@ -1,0 +1,43 @@
+@charset "ISO-8859-1";
+body{
+	align-items: center;
+	font-family : TImes New Roman;
+	justify-content :center;
+	height:100vh;
+	margin:0;
+	background-image:url('cesar-couto-TIvFLeqZ4ec-unsplash.jpg');
+	background-size : cover;
+	background-repeat : no-repeat;
+	color:#333;
+	display:flex;
+	flex-direction:column;
+
+}
+.container
+{
+	width:500px;
+	height:auto;
+	padding:20px;
+	border-radius:10px;
+	background-color: white ;
+	text-align:center;
+}
+h2
+{
+	font-weight:bold;
+	
+}
+.links a 
+{
+	margin:0 10px;
+	text-decoration:none;
+	color:#007BFF;
+	font-weight:bold;
+
+}
+.links a:hover
+{
+	color:#0056B3;
+	font-size:15px;
+	
+}
